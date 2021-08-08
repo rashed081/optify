@@ -259,6 +259,7 @@ body{
 }
 
 .section6{
+    width: 100%;
     position:relative ;
     background-color:#F3F3F3 ;
     float: left;
@@ -291,7 +292,25 @@ body{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width 10%
+}
+.section7{
+    display: grid;
+    float: left;
+    padding: 60px 100px 60px 100px;
+    grid-template-columns:50px 300px 100px 300px ;
+    grid-template-rows: 20px 20px 20px;
+    
+}
+.section7 a{
+    text-decoration: none;
+    color: black;
+}
+.section7 img{
+    grid-area: 1/1/1/1;
+    width: 20px;
+}
+.section7 #para1{
+    grid-area: 1/2/4/4;
 }
 
 @media only screen and (max-width: 768px) {
